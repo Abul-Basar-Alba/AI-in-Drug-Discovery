@@ -1,20 +1,31 @@
-pandas
-numpy
-scikit-learn
-xgboost
-torch
-torchvision
-matplotlib
-seaborn
-joblib
-sentence-transformers
-transformers
-tqdm
-imgaug
-opencv-python
-streamlit
-# NOTE: RDKit is not included here because binary wheels are platform-specific
-# and often not available via pip. If you need RDKit, install it separately
-# using conda: `conda install -c conda-forge rdkit` or follow your OS package
-# manager instructions. The featurizers include a non-RDKit fallback.
+# Core Data Science Libraries
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
 
+# Machine Learning Libraries
+scikit-learn>=1.0.0
+xgboost>=1.5.0
+
+# Deep Learning
+tensorflow>=2.8.0
+keras>=2.8.0
+
+# Computer Vision
+opencv-python>=4.5.0
+Pillow>=9.0.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Data Processing
+joblib>=1.1.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.0.0
+notebook>=6.4.0
+
+# Utilities
+tqdm>=4.62.0
