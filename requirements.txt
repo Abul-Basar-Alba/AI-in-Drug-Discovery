@@ -1,0 +1,20 @@
+pandas
+numpy
+scikit-learn
+xgboost
+torch
+torchvision
+matplotlib
+seaborn
+joblib
+sentence-transformers
+transformers
+tqdm
+imgaug
+opencv-python
+streamlit
+# NOTE: RDKit is not included here because binary wheels are platform-specific
+# and often not available via pip. If you need RDKit, install it separately
+# using conda: `conda install -c conda-forge rdkit` or follow your OS package
+# manager instructions. The featurizers include a non-RDKit fallback.
+

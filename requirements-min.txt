@@ -1,0 +1,7 @@
+pandas
+numpy
+scikit-learn
+joblib
+Pillow
+
+# Minimal set sufficient to run `run_pipeline.py` and basic featurizers (no RDKit, no torch/xgboost).
