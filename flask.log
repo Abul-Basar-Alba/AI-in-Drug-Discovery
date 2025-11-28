@@ -1,0 +1,32 @@
+nohup: ignoring input
+✓ Model loaded successfully
+✓ Feature names loaded (15 features)
+✓ Model metrics loaded
+
+============================================================
+🚀 AI DRUG DISCOVERY - WEB APPLICATION
+============================================================
+
+🌐 Starting server at http://127.0.0.1:5000
+📊 Open browser to see the dashboard
+
+Press Ctrl+C to stop
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 132-423-951
+127.0.0.1 - - [29/Nov/2025 03:03:02] "GET /api/model-info HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2025 03:03:18] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2025 03:03:32] "GET /?id=1ed21e6a-b339-4c7e-bd48-5bb0aa6e353e&vscodeBrowserReqId=1764363812114 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2025 03:03:32] "GET /api/model-info HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2025 03:03:32] "GET /api/sample-drugs HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2025 03:04:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2025 03:04:16] "GET /api/model-info HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2025 03:04:16] "GET /api/sample-drugs HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2025 03:04:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Nov/2025 03:13:12] "POST /api/predict HTTP/1.1" 200 -
